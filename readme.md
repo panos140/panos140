@@ -96,7 +96,7 @@ I enjoy experimenting with software, troubleshooting technical problems, and get
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=panos140&theme=algolia&no-frame=true&margin-w=8" alt="GitHub trophies" />
+  <img src="https://raw.githubusercontent.com/panos140/panos140/refs/heads/main/profile/trophy.svg" alt="GitHub trophies" />
 </p>
 
 ---
@@ -104,7 +104,7 @@ I enjoy experimenting with software, troubleshooting technical problems, and get
 ## 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=panos140&theme=github-compact&hide_border=true" alt="GitHub contribution graph" />
+  <img src="https://raw.githubusercontent.com/panos140/panos140/main/activity-assets/activity.svg" alt="GitHub contribution graph" />
 </p>
 
 ---
