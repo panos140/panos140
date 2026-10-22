@@ -1,0 +1,31 @@
+name: Update GitHub Trophies
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate trophies
+        uses: soulteary/github-profile-trophy-action@v1.0.0
+        with:
+          options: 'username=panos140&theme=algolia&column=4&margin-w=10'
+          path: profile/trophy.svg
+
+      - name: Commit generated trophies
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/trophy.svg
+          git diff --cached --quiet || git commit -m "Update GitHub trophies"
+          git push
